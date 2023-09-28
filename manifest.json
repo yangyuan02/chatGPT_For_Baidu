@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT for baidu",
+    "version": "1.0",
+    "description": "Add the reading time to Chrome Extension documentation articles",
+    "content_scripts": [
+        {
+          "js": ["content.js"],
+          "matches": ["https://www.baidu.com/*"]
+        }
+      ]
+  }
